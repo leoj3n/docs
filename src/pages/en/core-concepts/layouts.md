@@ -145,8 +145,7 @@ const { content } = Astro.props;
     <h2>{content.description}</h2>
     <img src={content.image} alt="">
     <article>
-      <!-- slot: Markdown content goes here! -->
-      <slot />
+      <slot />  <!-- slot: Markdown content goes here! -->
     </article>
   </body>
 </html>
